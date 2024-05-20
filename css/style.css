@@ -385,6 +385,7 @@ a{
 }
 .contact__form input:focus, .contact__form textarea:focus{
     border-color: var(--color4);
+    box-shadow: 0 0 10px var(--color4);
 }
 
 .contact__form button{
@@ -398,7 +399,7 @@ a{
     cursor: pointer;
 }
 .contact__form button:hover{
-    box-shadow: 0 0 5px var(--color4);
+    box-shadow: 0 0 10px var(--color4);
 }
 
 /* RIGHT */
