@@ -404,6 +404,8 @@ a{
 }
 
 .contact__form button{
+    display: flex;
+    align-items: center;
     font-size: 1.3rem;
     font-weight: 500;
     padding: 1rem 1.3rem;
@@ -416,6 +418,10 @@ a{
 .contact__form button:hover{
     box-shadow: 0 0 10px var(--color4);
 }
+.contact__form button i{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
 
 /* RIGHT */
 .contact__form .right{
@@ -426,7 +432,7 @@ a{
     padding: 1rem;
 }
 .contact__form .right i{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin-right: 1.3rem;
 }
 .contact__form .right h3{
