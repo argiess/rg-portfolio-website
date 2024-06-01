@@ -206,11 +206,11 @@ a{
     padding: .6rem 1rem;
     margin-inline: 1rem;
     border-radius: 50%;
-    border: 1.9px solid var(--color1);
+    border: 1.9px solid var(--color2);
     transition: .3s;
 }
 .about__section a:hover{
-    box-shadow: 0 0 10px var(--color0);
+    box-shadow: 0 0 10px var(--color4);
 }
 
 .about__section img{
