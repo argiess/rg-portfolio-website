@@ -127,7 +127,8 @@ a{
     height: 100vh;
     padding-top: 6.6rem;
     color: var(--color0);
-    background: url(../imgs/code-glitch.gif)no-repeat, var(--color3);
+    background: url(../imgs/code-glitch.gif)no-repeat, var(--color2);
+    /* background: url(../imgs/binary-code.jpg)no-repeat var(--color2); */
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
