@@ -177,6 +177,7 @@ a{
     gap: 12rem;
     color: var(--color0);
     background: #123;
+    border-bottom: 1.5px solid var(--color1);
 }
 .about__section h2{
     background: linear-gradient(to right, var(--color0), var(--color1));
@@ -222,10 +223,63 @@ a{
 }
 /* ABOUT SECTION END */
 
+/* BENEFITS SECTION START */
+.benefits{
+    width: 100%;
+    height: fit-content;
+    padding: 4rem 5%;
+    align-items: center;
+    background-color: #123;
+}
+
+.benefits img{
+    display: block;
+    max-width: 100%;
+    width: 8rem;
+}
+
+.benefits h2{
+    font-family: var(--font3);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.benefits li{
+    font-family: var(--font1);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.benefits .div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5rem;
+}
+
+.benefits .card{
+    padding: 2.5rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.benefits .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* BENEFITS SECTION END */
+
+
 /* LOGO ICONS SLIDER START */
 .slider__section{
     width: 100%;
     height: 100%;
+    background: var(--color0);
     padding: 2.4rem 0;
 }
 .slider{
@@ -610,6 +664,14 @@ a{
         height: auto;
     }
     /* ABOUT MEDIA END */
+
+    /* BENEFITS MEDIA START */
+    @media(max-width: 1050px){
+        .benefits .b{
+            order: 3;
+        }
+    }
+    /* BENEFITS MEDIA END */
 
     /* PORTFOLIO MEDIA START */
     .cards{
