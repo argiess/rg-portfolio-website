@@ -35,7 +35,7 @@ body{
 
 h2{
     font-family: var(--font3);
-    font-size: 2.8rem;
+    font-size: 3rem;
     letter-spacing: 1.8px;
     margin: 1.8rem 0 .8rem;
 }
@@ -226,6 +226,66 @@ a{
 }
 /* ABOUT SECTION END */
 
+/* BENEFITS SECTION START */
+.benefits{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem 5% 6rem;
+    align-items: center;
+    background-color: #123;
+}
+
+.benefits h2, .benefits p{
+    padding: 0 8%;
+    color: var(--color0);
+}
+.benefits p{
+    color: var(--color4);
+    margin-bottom: 3.5rem;
+}
+
+.benefits img{
+    display: block;
+    max-width: 100%;
+    width: 8rem;
+}
+
+.benefits h3{
+    font-family: var(--font3);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.benefits li{
+    font-family: var(--font1);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.benefits .div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5rem;
+}
+
+.benefits .card{
+    padding: 2.5rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.benefits .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* BENEFITS SECTION END */
+
 /* LOGO ICONS SLIDER START */
 .slider__section{
     width: 100%;
@@ -263,7 +323,7 @@ a{
     width: 100%;
     background: #123;
     color: var(--color0);
-    padding: 4rem 12%;
+    padding: 4rem 12% 6rem;
 }
 .portfolio p{
     color: var(--color4);
@@ -616,6 +676,14 @@ a{
         height: auto;
     }
     /* ABOUT MEDIA END */
+
+    /* BENEFITS MEDIA START */
+    @media(max-width: 1050px){
+        .benefits .b{
+            order: 3;
+        }
+    }
+    /* BENEFITS MEDIA END */
 
     /* PORTFOLIO MEDIA START */
     .cards{
